@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+header{
+  font-size: 2em;
+}
+.answerSection{
+  background-color: grey;
+  height: 100px;
+  width: 75%;
+  margin: auto;
+}
+.answerSection p{
+ padding: 30px;
+ font-size: 2em;
+}
+.inputSection{
+  width: 75%;
+  height: 100px;
+  margin: auto;
+}
+.inputSection input{
+  width: 50%;
+  height: 100px;
+  float: left;
+  font-size: 2em;
+}
+.buttonSection{
+  width: 75%;
+  height: 100px;
+  margin: auto;
+}
+.buttonSection button{
+  background-color: silver;
+  width: 25%;
+  height: 100px;
+  float: left;
+}
+button:hover{
+  background-color: white;
+}
